@@ -1,0 +1,40 @@
+if demon is not running use the below command at powershell or cmd
+----------------------------------------------------------
+cd "C:\Program Files\Docker\Docker"
+./DockerCli.exe -SwitchDaemon	
+
+
+How to install docker in linux
+-----------------------------
+yum install docker
+
+
+to use docker CLI use below command
+-----------------------------------
+docker login   (enter docker hub details)  (this command is very usefull to use docker CLI but before that u need to login into docker hub  and these same docker hub details you need enter at this command )
+
+
+to pull image from docker hub
+------------------------------
+docker pull tomcat
+
+to create image from dockerfile
+--------------------------------
+docker build .
+
+
+to create a container using images
+----------------------------------
+docker run imagename/imageId
+
+
+
+if you get any issue to pull image use the below command
+
+cd "C:\Program Files\Docker\Docker"   and
+./DockerCli.exe -SwitchDaemon	
+
+
+To enable hyper v from powershell
+---------------------------------------
+DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
