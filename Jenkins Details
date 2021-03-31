@@ -1,0 +1,27 @@
+Jenkins 
+
+http://localhost:8088/
+
+username : admin 
+password : password
+
+
+http://updates.jenkins-ci.org/download/plugins/
+
+
+jenkins master and slave architechture
+
+
+we can see under build executie status master and slaves in idle status once they are configured
+
+
+start jenkins in linux
+---------------------------
+sudo systemctl start jenkins
+
+in jenkins integratoin with docker build and push
+=====================================================
+download a plugin called cloudbees docker build and publish
+create a job and go to build->select docker build and publish->enter repository name(docker image tag)->and enter docker hub login details like username and password, give ID to use this ID for future use somewhere to recognize.
+
+
